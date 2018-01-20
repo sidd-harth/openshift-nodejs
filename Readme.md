@@ -16,4 +16,9 @@ npm install
 node server.js
 ```
 
-You can browse the apis at <http://localhost:3000>
+You can browse the apis at <http://localhost:8080>
+POST	http://localhost:8080/notes {"title":"something","content":"anything"}
+GET 	http://localhost:8080/notes
+PUT 	http://localhost:8080/notes/{_id}
+DELETE 	http://localhost:8080/notes/{_id}
+
